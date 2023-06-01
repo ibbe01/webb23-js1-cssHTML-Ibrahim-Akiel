@@ -1,0 +1,11 @@
+
+@media (max-width: 768px) {
+    /* Style for mobiltelefon (there are other variants of course)*/
+    :root {
+        --margin: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Stilar för bigger screens and desktop (det finns fler varianter) */
+}

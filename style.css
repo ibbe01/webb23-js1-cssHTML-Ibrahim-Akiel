@@ -1,0 +1,52 @@
+
+/*detta targetar alla h element samt a element (de med --color theme variablen) */
+
+:root {
+    --margin: 20px;
+    --color-theme: #3875b3
+}
+
+/* detta positionar elementen med margin variablen accordingly*/
+body {
+    font-family: Arial, sans-serif;
+    margin: var(--margin);
+}
+
+header, nav, main, footer {
+    margin-bottom: var(--margin);
+}
+
+
+h1, h2 {
+    color: var(--color-theme);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    display: flex;
+}
+
+/* displayar li i en horizontel ordning*/
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-theme);
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: var(--margin);
+}
+
+footer {
+    text-align: center;
+    color: #999;
+}
+
+
